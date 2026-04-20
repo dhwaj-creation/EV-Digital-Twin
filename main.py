@@ -25,7 +25,7 @@ force_acc = mass * acceleration
 force_roll = Cr * mass * g
 
 # Speeds (real-world)
-velocities_kmh = [20, 40, 60, 80, 100]
+velocities_kmh = list(range(10, 121, 5))
 velocities = [v * 1000 / 3600 for v in velocities_kmh]
 
 # Power calculation
@@ -70,6 +70,8 @@ for energy in energy_per_km:
 max_range = max(ranges)
 best_index = ranges.index(max_range)
 best_speed = velocities_kmh[best_index]
+print("Best Speed for Maximum Range:", best_speed, "km/h")
+print("Maximum Range:", round(max_range, 2), "km")
 
 # Find energy at chosen speed
 index = velocities_kmh.index(chosen_speed_kmh)
