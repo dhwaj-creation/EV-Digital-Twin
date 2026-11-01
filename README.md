@@ -2,9 +2,9 @@ EV Digital Twin
 
 A Physics-Based Electric Vehicle Simulation and Range Estimation System
 
-Developed by: Dhwaj Jain
-Technologies: Python · Streamlit · Matplotlib
-Project Type: Independent Engineering Project
+Developed by: Dhwaj Jain.    
+Technologies: Python · Streamlit · Matplotlib      
+Project Type: Independent Engineering Project.      
 
 Overview
 
