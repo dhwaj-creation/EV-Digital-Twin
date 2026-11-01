@@ -167,5 +167,3 @@ This project provides an opportunity to explore:
 Author
 
 Dhwaj Jain
-
-Independent engineering project exploring electric vehicles, simulation, and software development.
